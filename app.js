@@ -3,7 +3,7 @@ import cors from "cors";
 
 const app = express();
 
-const allowedOrigins = ["http://localhost:5173", "https://picpulse.vercel.app"];
+const allowedOrigins = ["http://localhost:5173", "https://sicu-aura-backend.vercel.app"];
 app.use(
   cors({
     origin: function (origin, callback) {
